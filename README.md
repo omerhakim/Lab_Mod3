@@ -1,5 +1,5 @@
-# Lab_Mod3
-UTC dataset
+# UTC dataset
+Pewdiction of Credit Card Default
 
 
 <img src = "./images/image1.png">
