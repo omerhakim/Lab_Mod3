@@ -1,5 +1,5 @@
 # UTC dataset
-Pewdiction of Credit Card Default
+Prediction of Credit Card Default
 
 
 <img src = "./images/image1.png">
