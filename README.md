@@ -6,11 +6,6 @@ My model try to predict  the probability of default with three different machine
 
 Following is the Attribute information: 
 
-
-<img src = "./images/image1.png">
-
-A
-
 <img src = "./images/image2.png">
 
 A
