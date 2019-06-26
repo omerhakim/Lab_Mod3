@@ -1,4 +1,4 @@
-# UTC dataset
+# UTC Dataset
 ## Prediction of Credit Card Default
 
 This UTC data set deals with the case of customers default payments in Taiwan.
