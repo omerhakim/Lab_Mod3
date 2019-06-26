@@ -84,10 +84,9 @@ My best F1 score (0.533) was achieved with the logistic regression model which w
 
 <img src = "./images/image21.png">
 
-confusion matrix
+ I added chart for the confusion matrix of the logistic regression to have better understanig of the result. Because we deals with credit, the scenario we would like to avoid the most is false Negative and also in this matter, the logistic regression model has the best results. 
 
 <img src = "./images/image22.png">
 
-summary
+Summary - This data set is complicated to predict, with a lot of confusing data. going over different attemts with this data on Kaggle, f1 score of 0.53 seems to be relativly good results (also of course not so good in general). according to the research in UTC, only models using neural netwrks were able to achievie signifctly better results, so I hope in the future to come back to this data and apply more sofisticated tools. 
 
-<img src = "./images/image23.png">
