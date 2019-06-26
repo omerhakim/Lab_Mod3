@@ -71,9 +71,7 @@ after basic models, hyper parameter tunning
 
 <img src = "./images/image17.png">
 
-A
 
-<img src = "./images/image18.png">
 
 A
 
