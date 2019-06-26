@@ -43,23 +43,23 @@ I found out that there is some correlation between delay in paymnts to default i
 
 <img src = "./images/image10.png">
 
-dropping variables
+Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understaning of the features.
 
 <img src = "./images/image11.png">
 
-dummy variables, renaming
+after adding the new dummy variables,  dropped the original ones.
 
 <img src = "./images/image12.png">
 
-While there are no clear fetures that influenct clearly the risk of defalut i decided to create more features with polinomials and interaction 
+Because I didn't find in my EDA a clear feture that influence clearly on the risk of defalut, I decided to create more features including polinomials and interaction (multiplcation) 
 
 <img src = "./images/image13.png">
 
-Train test split
+To be able to train and validate the model, I used Sklearn Train_Test_Split method. I split the data frame into features (independet variables) and target (dependet vaiable).
 
 <img src = "./images/image14.png">
 
-Feature selection
+From the 189 features I have now after applying polynaomials and interactions tools, I chose 45, using F_regression of the SelectKbest methos from Sklearn.
 
 <img src = "./images/image15.png">
 
