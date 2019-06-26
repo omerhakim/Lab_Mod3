@@ -72,23 +72,22 @@ after basic models, hyper parameter tunning
 <img src = "./images/image17.png">
 
 
-
-A
+evaluation
 
 <img src = "./images/image19.png">
 
-A
+evaluation
 
 <img src = "./images/image20.png">
 
-A
+final model
 
 <img src = "./images/image21.png">
 
-A
+confusion matrix
 
 <img src = "./images/image22.png">
 
-A
+summary
 
 <img src = "./images/image23.png">
