@@ -43,23 +43,23 @@ I found out that there is some correlation between delay in paymnts to default i
 
 <img src = "./images/image10.png">
 
-Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understaning of the features.
+Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understanding of the features.
 
 <img src = "./images/image11.png">
 
-after adding the new dummy variables,  dropped the original ones.
+After adding the new dummy variables,   I dropped the original ones.
 
 <img src = "./images/image12.png">
 
-Because I didn't find in my EDA a clear feture that influence clearly on the risk of defalut, I decided to create more features including polinomials and interaction (multiplcation) 
+Because I didn't find in my EDA a clear features that influence significantly on the risk of default, I decided to create more features including polynomials and interaction (multiplication) 
 
 <img src = "./images/image13.png">
 
-To be able to train and validate the model, I used Sklearn Train_Test_Split method. I split the data frame into features (independet variables) and target (dependet vaiable).
+To be able to train and validate the model, I used Sklearn Train_Test_Split method. I split the data frame into features (independent variables) and target (dependent variable).
 
 <img src = "./images/image14.png">
 
-From the 189 features I have now after applying polynaomials and interactions tools, I chose 45, using F_regression of the SelectKbest methos from Sklearn.
+From the 189 features I have now after applying polynomials and interactions tools, I chose the best 45, using F_regression of the SelectKbest method from Sklearn.
 
 <img src = "./images/image15.png">
 
@@ -67,26 +67,25 @@ After the feature selection I scaled the data using Sklearn Standard scaler.
 
 <img src = "./images/image16.png">
 
-For each one of my models (Logistic Regression, K Nearest Neigbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Folloeing is an example of the logistic regression tuning. Example for the other models can be found in the code document.
+For each one of my models (Logistic Regression, K Nearest Neighbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Following is an example of the logistic regression tuning. Example for the other models can be found in the code document.
 
 <img src = "./images/image17.png">
 
-
-After choosing the best parameter I evalute my models agains each other. I looked for the best F1 score. This is the KNN result:
+After choosing the best parameter I evaluated my models against each other. I looked for the best F1 score. This is the KNN model result:
 
 <img src = "./images/image19.png">
 
-and this is the Decision Trees" result:
+And this is the Decision Trees" result:
 
 <img src = "./images/image20.png">
 
-My best F1 score (0.533) was achieved with the logistic regression model which was cohsen to my final model.
+My best F1 score (0.533) was achieved with the logistic regression model which was chosen to my final model.
 
 <img src = "./images/image21.png">
 
- I added chart for the confusion matrix of the logistic regression to have better understanig of the result. Because we deals with credit, the scenario we would like to avoid the most is false Negative and also in this matter, the logistic regression model has the best results. 
+I added  a chart for the confusion matrix of the logistic regression, to have better understanding of the result. Because we deal with credit, the scenario we would like to avoid the most is false Negative, and also in this matter, the logistic regression model had the best results.
 
 <img src = "./images/image22.png">
 
-Summary - This data set is complicated to predict, with a lot of confusing data. going over different attemts with this data on Kaggle, f1 score of 0.53 seems to be relativly good results (also of course not so good in general). according to the research in UTC, only models using neural netwrks were able to achievie signifctly better results, so I hope in the future to come back to this data and apply more sofisticated tools. 
+Summary - This data set is complicated to predict and includes many confusing features. going over different attempts with this data on Kaggle, F1 score of 0.53 seems to be relatively good results (also of course not so good in general in order to predict default). according to the research in UTC, only models using neural networks were able to achieve significantly better results, so I hope in the future to come back to this data and apply more sophisticated tools for prediction. 
 
