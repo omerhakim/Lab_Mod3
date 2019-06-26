@@ -1,5 +1,5 @@
 # UTC Dataset
-## Prediction of Credit Card Default
+## Prediction of Credit Card Default in Taiwan
 
 This UTC data set deals with the case of customers default payments in Taiwan.
 My model try to predict  the probability of default with three different machine learning methods.  More details about the data set and the UTC research  can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
