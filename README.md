@@ -43,31 +43,31 @@ I found out that there is some correlation between delay in paymnts to default i
 
 <img src = "./images/image10.png">
 
-dummy variables, renaming
+dropping variables
 
 <img src = "./images/image11.png">
 
-While there are no clear fetures that influenct clearly the risk of defalut i decided to create more features with polinomials and interaction 
+dummy variables, renaming
 
 <img src = "./images/image12.png">
 
-A
+While there are no clear fetures that influenct clearly the risk of defalut i decided to create more features with polinomials and interaction 
 
 <img src = "./images/image13.png">
 
-A
+Train test split
 
 <img src = "./images/image14.png">
 
-A
+Feature selection
 
 <img src = "./images/image15.png">
 
-A
+scaling
 
 <img src = "./images/image16.png">
 
-A
+after basic models, hyper parameter tunning
 
 <img src = "./images/image17.png">
 
