@@ -67,20 +67,20 @@ After the feature selection I scaled the data using Sklearn Standard scaler.
 
 <img src = "./images/image16.png">
 
-after basic models, hyper parameter tunning
+For each one of my models (Logistic Regression, K Nearest Neigbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Folloeing is an example of the logistic regression tuning. Example for the other models can be found in the code document.
 
 <img src = "./images/image17.png">
 
 
-evaluation
+After choosing the best parameter I evalute my models agains each other. I looked for the best F1 score. This is the KNN result:
 
 <img src = "./images/image19.png">
 
-evaluation
+and this is the Decision Trees" result:
 
 <img src = "./images/image20.png">
 
-final model
+My best F1 score (0.533) was achieved with the logistic regression model which was cohsen to my final model.
 
 <img src = "./images/image21.png">
 
