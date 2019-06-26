@@ -2,17 +2,17 @@
 ## Prediction of Credit Card Default
 
 This UTC data set deals with the case of customers default payments in Taiwan.
-My model try to predict  the probability of default with three different machine learning methods.  More details about the data set and the research regading it can be fount in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
+My model try to predict  the probability of default with three different machine learning methods.  More details about the data set and the UTC research  can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
 
 Following is the Attribute information: 
 
 <img src = "./images/image2.png">
 
-A
+I started my work with a basic EDA of the Data:
 
 <img src = "./images/image3.png">
 
-A
+Following this preliminary EDA i decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
 
 <img src = "./images/image4.png">
 
