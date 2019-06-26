@@ -21,13 +21,12 @@ I also decided to merge the payment time to three groups: on time, one month del
 
 <img src = "./images/image5.png">
 
-
-After applying the changes, this is how curently the top five elements in my dataset look like:
+After applying the changes, this is how currently the top five elements in my data set look like:
 
 
 <img src = "./images/image6.png">
 
-I also checked an histogram of the data to get better idea about the distebutions of the differnce features
+I also checked an histogram of the data to get better idea about the distributions of the difference features
 
 <img src = "./images/image7.png">
 
@@ -35,11 +34,11 @@ And the distribution and the size of credit among different variables
 
 <img src = "./images/image8.png">
 
-I also checked the default status among different groups. my conclution wre written under the chart:
+I also checked the default status among different groups. My preliminary  conclusion are  written under the chart:
 
 <img src = "./images/image9.png">
 
-I found out that there is some correlation between delay in paymnts to default in the next months
+I found out that there is some correlation between delay in payments to default in the next month
 
 <img src = "./images/image10.png">
 
