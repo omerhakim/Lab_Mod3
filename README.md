@@ -63,7 +63,7 @@ From the 189 features I have now after applying polynaomials and interactions to
 
 <img src = "./images/image15.png">
 
-scaling
+After the feature selection I scaled the data using Sklearn Standard scaler.
 
 <img src = "./images/image16.png">
 
