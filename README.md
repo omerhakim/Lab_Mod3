@@ -12,42 +12,42 @@ I started my work with a basic EDA of the Data:
 
 <img src = "./images/image3.png">
 
-Following this preliminary EDA i decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
+Following the preliminary EDA I decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
 
 <img src = "./images/image4.png">
 
-A
+I also decided to merge the payment time to three groups: on time, one month delay and more than one month delay.
 
 
 <img src = "./images/image5.png">
 
 
-A
+After applying the changes, this is how curently the top five elements in my dataset look like:
 
 
 <img src = "./images/image6.png">
 
-A
+I also checked an histogram of the data to get better idea about the distebutions of the differnce features
 
 <img src = "./images/image7.png">
 
-A
+And the distribution and the size of credit among different variables
 
 <img src = "./images/image8.png">
 
-A
+I also checked the default status among different groups. my conclution wre written under the chart:
 
 <img src = "./images/image9.png">
 
-A
+I found out that there is some correlation between delay in paymnts to default in the next months
 
 <img src = "./images/image10.png">
 
-A
+dummy variables, renaming
 
 <img src = "./images/image11.png">
 
-A
+While there are no clear fetures that influenct clearly the risk of defalut i decided to create more features with polinomials and interaction 
 
 <img src = "./images/image12.png">
 
