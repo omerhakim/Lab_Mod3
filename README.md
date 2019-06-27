@@ -1,4 +1,4 @@
-# UTC Crdit Dataset
+# UTC Credit Dataset
 ## Prediction of Credit Card Default in Taiwan
 
 This UTC data set deals with the case of customers default payments in Taiwan.
