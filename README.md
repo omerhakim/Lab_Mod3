@@ -16,7 +16,7 @@ I started my work with a basic EDA of the Data:
 
 Following the preliminary EDA I decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
 
-<img src = "./images/image4.png">
+<img src = "./images/image4.png" style = max width = 90%>
 
 I also decided to merge the payment's time to three groups: On time (or early payment), one month delay and more than one month delay.
 
@@ -41,7 +41,7 @@ I also checked the default status among different groups. My preliminary  conclu
 
 I found out that there is some correlation between delay in payments to default in the next month
 
-<img src = "./images/image10.png" style = max width = 70%>
+<img src = "./images/image10.png" style = max width = 60%>
 
 Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understanding of the features.
 
