@@ -8,7 +8,7 @@ More details about the data set and the UTC research can be found in the UTC web
 
 Following is the Attribute information: 
 
-<img src = "./images/image2.png" style = max width = 115%>
+<img src = "./images/image2.png" style = max width = 125%>
 
 I started my work with a basic EDA of the Data:
 
@@ -18,8 +18,7 @@ Following the preliminary EDA I decided to drop outliers and the sizes of the bi
 
 <img src = "./images/image4.png">
 
-I also decided to merge the payment time to three groups: on time, one month delay and more than one month delay.
-
+I also decided to merge the payment's time to three groups: On time (or early payment), one month delay and more than one month delay.
 
 <img src = "./images/image5.png">
 
