@@ -41,7 +41,7 @@ I also checked the default status among different groups. My preliminary  conclu
 
 I found out that there is some correlation between delay in payments to default in the next month
 
-<img src = "./images/image10.png">
+<img src = "./images/image10.png" style = max width = 70%>
 
 Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understanding of the features.
 
