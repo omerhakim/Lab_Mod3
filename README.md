@@ -2,13 +2,13 @@
 ## Prediction of Credit Card Default in Taiwan
 
 This UTC data set deals with the case of customers default payments in Taiwan.
-My model try to predict  the probability of credit default for a costumer in the following month. For my model I examined and compare three different machine learning methods: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+My model try to predict  the probability of credit default for a costumer in the following month. For my model I examined and compare three different machine learning methods: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score The. F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
 
-More details about the data set and the UTC research  can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
+More details about the data set and the UTC research can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
 
 Following is the Attribute information: 
 
-<img src = "./images/image2.png">
+<img src = "./images/image2.png" style = max width = 115%>
 
 I started my work with a basic EDA of the Data:
 
