@@ -33,7 +33,7 @@ I also checked an histogram of the data to get better idea about the distributio
 
 And the distribution and the size of credit among different variables
 
-<img src = "./images/image8.png">
+<img src = "./images/image8.png" style = max width = 90%>
 
 I also checked the default status among different groups. My preliminary  conclusion are  written under the chart:
 
