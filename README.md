@@ -12,7 +12,7 @@ Following is the Attribute information:
 
 I started my work with a basic EDA of the Data:
 
-<img src = "./images/image3.png">
+<img src = "./images/image3.png" style = max width = 85%>
 
 Following the preliminary EDA I decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
 
