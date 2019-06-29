@@ -8,11 +8,11 @@ More details about the data set and the UTC research can be found in the UTC web
 
 Following is the Attribute information: 
 
-<img src = "./images/image2.png" style = max width = 125%>
+<img src = "./images/image2.png" style = max width = 130%>
 
 I started my work with a basic EDA of the Data:
 
-<img src = "./images/image3.png" style = max width = 85%>
+<img src = "./images/image3.png" style = max width = 80%>
 
 Following the preliminary EDA I decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
 
