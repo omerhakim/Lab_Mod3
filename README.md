@@ -8,7 +8,7 @@ More details about the data set and the UTC research can be found in the UTC web
 
 Following is the Attribute information from the UTC website: 
 
-<img src = "./images/image2.png" style = max width = 150%  max height = 120%>
+<img src = "./images/image2.png"  width = 1150  height = 250>
 
 I started my work with a basic EDA of the Data:
 
