@@ -59,7 +59,7 @@ After dividing the data frame into 'features' and 'target', the Sklearn Train_Te
 
 <img src = "./images/image14.png">
 
-From the 189 features I have now after applying polynomials and interactions tools, I chose the best 45, using F_regression of the SelectKbest method from Sklearn.
+From the 189 features I had after applying polynomials and interactions, I selected the best 45, using F_regression of the SelectKbest method from Sklearn.
 
 <img src = "./images/image15.png">
 
