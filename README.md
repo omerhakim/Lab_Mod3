@@ -55,7 +55,7 @@ Because I didn't find in my EDA a clear features that influence significantly on
 
 <img src = "./images/image13.png">
 
-To be able to train and validate the model, I used Sklearn Train_Test_Split method. I split the data frame into features (independent variables) and target (dependent variable).
+After dividing the data frame into 'features' and 'target', the Sklearn Train_Test_Split method was applied in order to train and validate the model.
 
 <img src = "./images/image14.png">
 
