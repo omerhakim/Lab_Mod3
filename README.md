@@ -63,23 +63,25 @@ From the 189 features I had after applying polynomials and interactions, I selec
 
 <img src = "./images/image15.png">
 
-After the feature selection I scaled the data using Sklearn Standard scaler.
+After the features selection,the data was scaled, using Sklearn Standard scaler.
 
 <img src = "./images/image16.png">
 
-For each one of my models (Logistic Regression, K Nearest Neighbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Following is an example of the logistic regression tuning. Example for the other models can be found in the code document.
+For each one of the algorithms (Logistic Regression, K Nearest Neighbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Following is an example of the logistic regression tuning. Example for the other algorithms can be found in the python code document.
 
 <img src = "./images/image17.png" style = max width = 90%>
 
-After choosing the best parameter I evaluated my models against each other. I looked for the best F1 score. This is the KNN model result:
+After choosing the best parameter I evaluated my algoritms against each other. I looked for the best F1 score.
+
+This was the "KNN" result:
 
 <img src = "./images/image19.png">
 
-And this is the Decision Trees" result:
+And this is the "Decision Trees" result:
 
 <img src = "./images/image20.png">
 
-My best F1 score (0.533) was achieved with the logistic regression model which was chosen to my final model.
+My best F1 score (0.533) was achieved with the logistic regression algorithms which was chosen as the classifier for the final model.
 
 <img src = "./images/image21.png">
 
@@ -87,5 +89,7 @@ I added  a chart for the confusion matrix of the logistic regression, to have be
 
 <img src = "./images/image22.png" height = 475 width = 475>
 
-Summary - This data set is complicated to predict and includes many confusing features. going over different attempts with this data on Kaggle, F1 score of 0.53 seems to be relatively good results (also of course not so good in general in order to predict default). according to the research in UTC, only models using neural networks were able to achieve significantly better results, so I hope in the future to come back to this data and apply more sophisticated tools for prediction. 
+Summary -
+
+This data set is complicated to predict and includes many confusing features. going over different attempts of other users with this data on Kaggle website, F1 score of 0.53 seems to be relatively good results (also of course not so good in general in order to predict default). According to the research in UTC, only models using neural networks were able to achieve significantly better results, so I hope in the future to come back to this data set and apply more sophisticated tools for prediction. 
 
