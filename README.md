@@ -1,12 +1,12 @@
 # UTC Credit Dataset
 ## Prediction of Credit Card Default in Taiwan
 
-This UTC data set deals with the case of customers default payments in Taiwan.
-My model try to predict  the probability of credit default for a costumer in the following month. For my model I examined and compared three different machine learning methods: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score, The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+This UTC data set deals with the case of customers default payments in Taiwan in the year 2005.
+My model try to predict the probability of credit default for a costumer in the following month. For my model I examined and compared three different machine learning algorithms: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score. The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
 
 More details about the data set and the UTC research can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
 
-Following is the Attribute information from the UTC website: 
+Following is the Attributes information from the UTC website: 
 
 <img src = "./images/image2.png"  width = 1150  height = 250>
 
@@ -14,7 +14,7 @@ I started my work with a basic EDA of the Data:
 
 <img src = "./images/image3.png" style = max width = 80%>
 
-Following the preliminary EDA I decided to drop outliers and the sizes of the bills (who did not show any correlation with the risk of default)
+Following the preliminary EDA I decided to drop outliers and the features with the bills' amount (who did not show significant correlation with the risk of default)
 
 <img src = "./images/image4.png" style = max width = 90%>
 
@@ -22,7 +22,7 @@ I also decided to merge the payment's time to three groups: On time (or early pa
 
 <img src = "./images/image5.png">
 
-After applying the changes, this is how currently the top five elements in my data set look like:
+After applying these changes, this is how the top five elements in my data set looked like:
 
 
 <img src = "./images/image6.png">
@@ -43,7 +43,7 @@ I found out that there is some correlation between delay in payments to default 
 
 <img src = "./images/image10.png" style = max width = 40%>
 
-Before starting training my model, I created dummy variables out of the features "Sex", "Education and "Marriage". I also rename some of the columns in order to have better understanding of the features.
+Before starting training my model, I created dummy variables out of the categorical features "Sex", "Education" and "Marriage". I also renamed some of the columns in order to have better understanding of the features.
 
 <img src = "./images/image11.png">
 
