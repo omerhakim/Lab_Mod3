@@ -50,7 +50,7 @@ Once the new dummy variables were added, the original ones were dropped.
 
 <img src = "./images/image12.png">
 
-Because I didn't find in my EDA a clear features that influence significantly on the risk of default, I decided to create more features including polynomials and interaction (multiplication) 
+Since the EDA did not yield features with significant-enough influence on the the risk of default, it was decided to create more features. including polynomials and interaction (multiplication). 
 
 <img src = "./images/image13.png">
 
@@ -58,19 +58,19 @@ After dividing the data frame into 'features' and 'target', the Sklearn Train_Te
 
 <img src = "./images/image14.png">
 
-From the 189 features I had after applying polynomials and interactions, I selected the best 45, using F_regression of the SelectKbest method from Sklearn.
+From the 189 resulting features (after applying polynomials and interactions), the best 45 features were selected using F_regression of the SelectKbest method from Sklearn.
 
 <img src = "./images/image15.png">
 
-After the features selection,the data was scaled, using Sklearn Standard scaler.
+Next, the data was scaled using Sklearn Standard Scaler.
 
 <img src = "./images/image16.png">
 
-For each one of the algorithms (Logistic Regression, K Nearest Neighbors and Decision Tree) I ran hyper-parameter tuning, using sklearn grid search. Following is an example of the logistic regression tuning. Example for the other algorithms can be found in the python code document.
+Next, a hyper-parameter was applied to each of the algorithms (Logistic Regression, K Nearest Neighbors and Decision Tree), using SKLearn grid search.  Following is an example of the logistic regression tuning. Example for the other algorithms can be found in the Python code document.
 
 <img src = "./images/image17.png" style = max width = 90%>
 
-After choosing the best parameter I evaluated my algoritms against each other. I looked for the best F1 score.
+After choosing the best parameter, algoritms were evaluated against each other, to find the best F1 score.
 
 This was the "KNN" result:
 
@@ -80,17 +80,14 @@ And this is the "Decision Trees" result:
 
 <img src = "./images/image20.png">
 
-My best F1 score (0.533) was achieved with the logistic regression algorithms which was chosen as the classifier for the final model.
+The best F1 score (0.533) was achieved with the logistic regression algorithm, which was therefore chosen as the classifier for the final model.
 
 <img src = "./images/image21.png">
 
-I added  a chart for the confusion matrix of the logistic regression, to have better understanding of the result. Because we deal with credit, the scenario we would like to avoid the most is false Negative, and also in this matter, the logistic regression model had the best results.
+A visualization chart of the confusion matrix of the logistic regression was added for additional clarity on the results. In addition, since credit is at issue, it was crucial to avoid false negatives. and the logistic regression model scored the highest in this regard as well. 
 
 <img src = "./images/image22.png" height = 475 width = 475>
 
-Summary -
-
-This data set is complicated to predict and includes many confusing features. going over different attempts of other users with this data on Kaggle website, F1 score of 0.53 seems to be relatively good results (also of course not so good in general in order to predict default). According to the research in UTC, only models using neural networks were able to achieve significantly better results, so I hope in the future to come back to this data set and apply more sophisticated tools for prediction. 
-
+As a final note, this data set is complicated to base predictions on, as it includes many confusing features. Upon reviewing different attempts made by other users to utilize this data (on Kaggle website), an F1 score of 0.53 seems to be relatively high for this particular data set.
 
 *For additional information on the UTC data set used for this model, and the UTC research in general, please refer to the UTC website at: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
