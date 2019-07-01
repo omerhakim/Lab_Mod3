@@ -90,4 +90,4 @@ A visualization chart of the confusion matrix of the logistic regression was add
 
 As a final note, this data set is complicated to base predictions on, as it includes many confusing features. Upon reviewing different attempts made by other users to utilize this data (on Kaggle website), an F1 score of 0.53 seems to be relatively high for this particular data set.
 
-*For additional information on the UTC data set used for this model, and the UTC research in general, please refer to the UTC website at: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
+*For additional information on the UTC data set used for this project, and the UTC research in general, please refer to the UTC website at: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
