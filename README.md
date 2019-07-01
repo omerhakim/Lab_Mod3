@@ -1,54 +1,52 @@
 # UTC Credit Dataset
 ## Prediction of Credit Card Default in Taiwan
 
-This model aims to help financial institutions with predicting credit default by individual customers.  
-The UTC data set used in this model contains customers default payments information in Taiwan in the year 2005.
-My model try to predict the probability of credit default for a costumer in the following month. For my model I examined and compared three different machine learning algorithms: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score. The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+This model predicts credit defaults, based on a UTC data set with default payments information of customers in Taiwan from 2005.*  To create this model, three machine learning algorithms were examined and compared: Logistic Regression,K Nearest Neighbors, and Decision Tree. The goal was to reach the highest-possible F1 score (i.e., the harmonic average of the precision and recall, with the F1 score ranging from 0 to 1, 1 being the perfect precision and recall).
 
-More details about the data set and the UTC research can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
-
-Following is the Attributes information from the UTC website: 
+Below is the attribute information from the UTC website: 
 
 <img src = "./images/image2.png"  width = 1150  height = 250>
 
-I started my work with a basic EDA of the Data:
+As a first step, a preliminary EDA was conducted:
 
 <img src = "./images/image3.png" style = max width = 80%>
 
-Following the preliminary EDA I decided to drop outliers and the features with the bills' amount (who did not show significant correlation with the risk of default)
+Following the EDA, it was decided to drop outliers and the features with the bills' amounts (which did not show significant correlation with the risk of default).
 
 <img src = "./images/image4.png" style = max width = 90%>
 
-I also decided to merge the payment's time to three groups: On time (or early payment), one month delay and more than one month delay.
+I has also been decided to combine time-of-payment information into three groups: 
+1) On-time payments (including early payments)
+2) Late payments - up to 30 days late
+3) Late payments - more than 30 days late
 
 <img src = "./images/image5.png">
 
-After applying these changes, this is how the top five elements in my data set looked like:
-
+Once this grouping has been applied, the top 5 elements in the data set were as follows:
 
 <img src = "./images/image6.png">
 
-I also checked an histogram of the data to get better idea about the distributions of the difference features
+Next, a histogram of the data was examined, for some clarity on the distributions of the difference features - - - 
 
 <img src = "./images/image7.png">
 
-And the distribution and the size of credit among different variables
+- - - and of the distribution and the size of credit among different variables.
 
 <img src = "./images/image8.png" style = max width = 90%>
 
-I also checked the default status among different groups. My preliminary  conclusion are  written under the chart:
+Next, default status information was arranged by different customer groups.  The preliminary co this information is reflected in the chart below:
 
 <img src = "./images/image9.png">
 
-I found out that there is some correlation between delay in payments to default in the next month
+To a certain degree, late payments correlated with going into default.
 
 <img src = "./images/image10.png" style = max width = 40%>
 
-Before starting training my model, I created dummy variables out of the categorical features "Sex", "Education" and "Marriage". I also renamed some of the columns in order to have better understanding of the features.
+Prior to training, dummy variables were created based on the following categorical features: "Sex", "Education", and "Marriage". Some of the columns were renamed to make the features more clear.
 
 <img src = "./images/image11.png">
 
-After adding the new dummy variables,   I dropped the original ones.
+Once the new dummy variables were added, the original ones were dropped.
 
 <img src = "./images/image12.png">
 
@@ -94,3 +92,5 @@ Summary -
 
 This data set is complicated to predict and includes many confusing features. going over different attempts of other users with this data on Kaggle website, F1 score of 0.53 seems to be relatively good results (also of course not so good in general in order to predict default). According to the research in UTC, only models using neural networks were able to achieve significantly better results, so I hope in the future to come back to this data set and apply more sophisticated tools for prediction. 
 
+
+*For additional information on the UTC data set used for this model, and the UTC research in general, please refer to the UTC website at: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
