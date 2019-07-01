@@ -26,11 +26,11 @@ Once this grouping has been applied, the top 5 elements in the data set were as 
 
 <img src = "./images/image6.png">
 
-Next, a histogram of the data was examined, for some clarity on the distributions of the difference features - - - 
+Next, a histogram of the data was examined, for some clarity on the distributions of the difference features...
 
 <img src = "./images/image7.png">
 
-- - - and of the distribution and the size of credit among different variables.
+...and of the distribution and the size of credit among different variables.
 
 <img src = "./images/image8.png" style = max width = 90%>
 
