@@ -1,7 +1,8 @@
 # UTC Credit Dataset
 ## Prediction of Credit Card Default in Taiwan
 
-This UTC data set deals with the case of customers default payments in Taiwan in the year 2005.
+This model aims to help financial institutions with predicting credit default by individual customers.  
+The UTC data set used in this model contains customers default payments information in Taiwan in the year 2005.
 My model try to predict the probability of credit default for a costumer in the following month. For my model I examined and compared three different machine learning algorithms: Logistic Regression,K Nearest Neighbors and Decision Tree. My goal was to reach the highest possible f1 score. The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0.
 
 More details about the data set and the UTC research can be found in the UTC website - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#
