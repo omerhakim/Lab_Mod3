@@ -34,7 +34,7 @@ Next, a histogram of the data was examined, for some clarity on the distribution
 
 <img src = "./images/image8.png" style = max width = 90%>
 
-Next, default status information was arranged by different customer groups.  The preliminary conclusions of this information is reflected in the chart below:
+Next, default status information was arranged by different customer groups.  The preliminary conclusions of this information are reflected in the chart below:
 
 <img src = "./images/image9.png">
 
