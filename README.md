@@ -1,7 +1,7 @@
 # UTC Credit Dataset
 ## Prediction of Credit Card Default in Taiwan
 
-This model predicts credit defaults, based on a UTC data set with default payments information of customers in Taiwan from 2005.*  To create this model, three machine learning algorithms were examined and compared: Logistic Regression,K Nearest Neighbors, and Decision Tree. The goal was to reach the highest-possible F1 score (i.e., the harmonic average of the precision and recall, with the F1 score ranging from 0 to 1, 1 being the perfect precision and recall).
+This model predicts credit defaults, based on a UTC data set with default payments information of customers in Taiwan from 2005.*  To create this model, three machine learning algorithms were examined and compared: Logistic Regression, K Nearest Neighbors, and Decision Tree. The goal was to reach the highest-possible F1 score (i.e., the harmonic average of the precision and recall, with the F1 score ranging from 0 to 1, 1 being the perfect precision and recall).
 
 Below is the attribute information from the UTC website: 
 
