@@ -15,7 +15,7 @@ Following the EDA, it was decided to drop outliers and the features with the bil
 
 <img src = "./images/image4.png" style = max width = 90%>
 
-I has also been decided to combine time-of-payment information into three groups: 
+It has also been decided to combine time-of-payment information into three groups: 
 1) On-time payments (including early payments)
 2) Late payments - up to 30 days late
 3) Late payments - more than 30 days late
@@ -66,7 +66,7 @@ Next, the data was scaled using Sklearn Standard Scaler.
 
 <img src = "./images/image16.png">
 
-Next, a hyper-parameter was applied to each of the algorithms (Logistic Regression, K Nearest Neighbors and Decision Tree), using SKLearn grid search.  Following is an example of the logistic regression tuning. Example for the other algorithms can be found in the Python code document.
+Next, a hyper-parameter tuning was applied to each of the algorithms (Logistic Regression, K Nearest Neighbors and Decision Tree), using SKLearn grid search.  Following is an example of the logistic regression tuning. Example for the other algorithms can be found in the Python code document.
 
 <img src = "./images/image17.png" style = max width = 90%>
 
