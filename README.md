@@ -70,7 +70,7 @@ Next, a hyper-parameter tuning was applied to each of the algorithms (Logistic R
 
 <img src = "./images/image17.png" style = max width = 90%>
 
-After choosing the best parameter, algoritms were evaluated against each other, to find the best F1 score.
+After choosing the best parameter, algorithms were evaluated against each other, to find the best F1 score.
 
 This was the "KNN" result:
 
